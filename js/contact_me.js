@@ -47,7 +47,7 @@ $(function() {
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
           $('#success > .alert-success').append($("<strong>").text("Hi " + firstName + ", I will be getting in touch soon!"));
-          $('#success > .alert-sucess').append('</div>');
+          $('#success > .alert-success').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
         },
